@@ -33,7 +33,7 @@ jobs:
         
       # Push to Github Pages
       - name: Github Pages
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
         with:
           # Build directory to deploy
           build_dir: dist
